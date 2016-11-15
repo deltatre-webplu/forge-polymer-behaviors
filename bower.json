@@ -1,0 +1,26 @@
+{
+  "name": "forge-polymer-behaviors",
+  "homepage": "https://github.com/deltatre-webplu/forge-polymer-behaviors",
+  "authors": [
+    "WebPLU"
+  ],
+  "description": "Series of Polymer Behaviors for Forge integration",
+  "main": "forge-polymer-behaviors.html",
+  "keywords": [
+    "forge",
+    "polymer",
+    "behaviors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "forge-polymer-libraries": "https://github.com/deltatre-webplu/forge-polymer-libraries.git",
+    "app-localize-behavior": "^0.10.0"
+  }
+}

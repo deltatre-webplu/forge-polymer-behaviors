@@ -1,0 +1,36 @@
+<script>
+(function() {
+
+  window.ForgeWebComponents = window.ForgeWebComponents || {};
+  ForgeWebComponents.Behaviors = ForgeWebComponents.Behaviors || {};
+  ForgeWebComponents.Behaviors.ExtendedFieldArrayBehavior = {
+    properties: {
+      value: {
+        type: Array,
+        value: []
+      },
+      label: {
+        type: String
+      },
+      fieldName: {
+        type: String
+      },
+      entity: {
+        type: Object
+      },
+      schema: {
+        type: Object
+      },
+      disabled: {
+        type: Boolean,
+        value: false
+      }
+    },
+    triggerOnValueChanged: function() {
+      if (this.disabled) return;
+      this.fire('valueChanged', this.value);
+    }
+  };
+
+})();
+</script>
