@@ -21,7 +21,6 @@
   ],
   "dependencies": {
     "forge-polymer-libraries": "https://github.com/deltatre-webplu/forge-polymer-libraries.git",
-    "forge-polymer-api": "https://github.com/deltatre-webplu/forge-polymer-api.git",
     "app-localize-behavior": "^0.10.0"
   }
 }
